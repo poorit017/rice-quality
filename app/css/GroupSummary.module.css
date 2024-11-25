@@ -1,0 +1,144 @@
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+
+}
+
+.centered {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;; 
+    text-shadow: 0 0 3px #3c8b45, 0 0 5px #ffffff; 
+  }
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table, .tableSticky {
+    background-color: #fff; /* Solid white background */
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.table th, .table td, .tableSticky th, .tableSticky td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.table thead th {
+    background-color: #0059ff;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.summaryRow {
+    background-color: #3a3a3a;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    color: #fff;
+}
+
+.totalLabel {
+    background-color: #cccccc;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+    border-right: 2px solid #333;
+    padding: 10px;
+    color: #000;
+}
+
+.backButton {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+
+.tableSticky {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    font-size: 18px;
+    white-space: normal;
+}
+
+.tableSticky thead th {
+    position: sticky;
+    top: 0;
+    z-index: 3; /* ให้อยู่ด้านบนสุด */
+    background-color: #0059ff; /* สีพื้นหลัง */
+    color: #ddd;
+    border: 2px solid white; /* เส้นขอบเป็นสีขาว */
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: none; /* เอาเงาภายในออก */
+}
+
+.tableSticky thead th + th {
+    border-left: 2px solid #fff; /* เส้นขอบระหว่างคอลัมน์ */
+}
+
+.tableSticky tbody tr td {
+    border: 1px solid #ddd; /* ขอบของเซลล์ข้อมูล */
+    padding: 12px;
+    font-size: 14px;
+}
+
+.tableSticky thead tr:nth-child(2) th {
+    position: sticky;
+    top: 55px; /* ปรับตามความสูงของ header แถวแรก */
+    z-index: 2; 
+    background-color: #0059ff; 
+    border: 2px solid #fff; 
+    height: 40px; /* กำหนดความสูงที่แน่นอน */
+    padding: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 40px; /* ให้ข้อความอยู่กลางเมื่อใช้ height */
+}
+
+
+.tableSticky tbody tr:hover {
+    background-color: #e0e0e0; /* Slightly different gray for sticky table rows */
+    color: #000;
+}
+.certIcon {
+    margin-left: 5px; /* เพิ่มระยะห่างระหว่างชื่อและไอคอน */
+  }
+  
+  .iconSmall {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle; /* ให้ไอคอนอยู่แนวเดียวกับข้อความ */
+  }

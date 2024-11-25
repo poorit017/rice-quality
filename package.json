@@ -1,5 +1,5 @@
 {
-  "name": "rice-quality-app",
+  "name": "inspection-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "15.0.3"
+    "eslint-config-next": "14.2.5"
   }
 }
