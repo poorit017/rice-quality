@@ -40,7 +40,7 @@ const SummaryTable1 = () => {
     return (
         <div className="container">
             <h3>
-                <div className="header">ปีงบประมาณ 2566 test api tidb</div>
+                <div className="header">ปีงบประมาณ 2566 </div>
             </h3>
             <div className="col-md-12">
                 <table className="table">
